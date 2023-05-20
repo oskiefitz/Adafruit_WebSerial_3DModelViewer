@@ -427,7 +427,7 @@ scene.background = new THREE.Color('black');
 
 {
   const objLoader = new OBJLoader();
-  objLoader.load('assets/character.obj', (root) => {
+  objLoader.load('assets/character2.obj', (root) => {
     bunny = root;
     scene.add(root);
   });
